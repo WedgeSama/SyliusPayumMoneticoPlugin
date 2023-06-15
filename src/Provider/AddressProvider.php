@@ -32,7 +32,7 @@ final class AddressProvider implements AddressProviderInterface
         $result['city'] = $address->getCity();
         $result['postalCode'] = $address->getPostcode();
         $result['country'] = $address->getCountryCode();
-        $result['stateOrProvince'] = $address->getProvinceCode() ?? $address->getProvinceName();
+//        $result['stateOrProvince'] = $address->getProvinceCode() ?? $address->getProvinceName();
 
         return $result;
     }
